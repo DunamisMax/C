@@ -43,12 +43,14 @@ Each folder will focus on a distinct topic or project type. The general structur
 ## Getting Started
 
 1. **Cloning the Repo**:
+
    ```bash
    git clone https://github.com/dunamismax/c.git
    ```
 
 2. **Navigating Projects**:
    Each project directory may have its own build instructions. Most simple programs can be compiled with:
+
    ```bash
    cd project-directory
    cc -Wall -Wextra -pedantic -std=c11 main.c -o project
